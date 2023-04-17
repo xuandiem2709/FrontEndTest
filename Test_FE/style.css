@@ -31,6 +31,13 @@
     border-bottom: 1px solid #AAAAAA;
     padding: 13px 0;
 }
+.sidebar ul li:first-child{
+    color: #fff;
+}
+.sidebar ul li:hover {
+    background: #5C5C5C;
+    color: #fff;
+}
 div.content {
     margin-left: 150px;
     width: 1768px;
@@ -52,6 +59,7 @@ div.content {
     display: block;
 }
 .content .group1 {
+    text-align: center;
     background-color: #EFEFEF;
     padding: 38px 269px;
     margin-bottom: 40px;
